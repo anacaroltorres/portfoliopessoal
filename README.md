@@ -1,5 +1,16 @@
 # Portfólio pessoal
-Este repositório é o espaço onde compartilho meus projetos acadêmicos, desafios técnicos e experimentos em diversas tecnologias.
+
+# Sobre a aplicação
+Repositório dedicado ao meu portfólio pessoal, onde apresento projetos e habilidades na área de desenvolvimento.
+
+Inclui:
+
+<ul>
+  <li>Sobre mim: Introdução ao meu perfil profissional.</li>
+  <li>Projetos: Exemplos de trabalhos realizados em Frontend (HTML, CSS, Bootstrap, React), Backend (Node.js, APIs) e integrações com bancos de dados.</li>
+  <li>Contato: Links para minhas redes profissionais e informações para colaboração.</li>
+<ul>
+
 
 # Tecnologias utilizadas
 <ul>
