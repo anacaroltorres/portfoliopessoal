@@ -15,7 +15,6 @@ Inclui:
   <li>CSS</li>
   <li>Bootstrap</li>
   <li>JavaScript</li>
-  <li>React</li>
 </ul>
 
 # Visualização
