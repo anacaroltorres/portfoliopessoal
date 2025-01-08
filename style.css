@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Pacifico&display=swap");
+
+:root {
+  --cor-fundo: #fefaef; /* background */
+  --cor-texto: #000; /* text color */
+  --cor-destaque-1: ##6ac4d9; /* highlight color */
+  --cor-destaque-2: #f2aebb;
+  --cor-destaque-3: #f29d52;
+  --cor-titulo: #ee302f; /* title color */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.apresentacao {
+  height: 100vh; /* Ocupa a altura total da tela */
+  background-color: var(--cor-fundo); /* Cor de fundo */
+  display: flex; /* Flexbox para centralização */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  padding: 3%;
+}
+
+/* Contêiner principal */
+.container-secao {
+  display: flex; /* Flex para organizar as colunas */
+  flex-direction: row; /* Mantém as colunas lado a lado */
+  gap: 40px; /* Espaçamento entre as colunas */
+  max-width: 1200px; /* Largura máxima do contêiner */
+  width: 100%; /* Adapta ao tamanho da tela */
+  align-items: center;
+  margin-left: 5%;
+}
+
+/* Coluna do texto */
+.coluna-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente o texto */
+  max-width: 100%;
+}
+
+.saudacao {
+  font-family: "Pacifico", sans-serif;
+  color: var(--cor-titulo);
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.paragrafo-inicial-s1,
+.paragrafo-secundario-s1 {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-family: "Cutive Mono", sans-serif;
+  color: var(--cor-texto);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Ícones das redes sociais */
+.icones-redes {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icone-img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Coluna da imagem */
+.coluna-imagem {
+  flex: 1; /* Ocupa o espaço disponível */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente a imagem */
+  align-items: center; /* Centraliza verticalmente a imagem */
+}
+
+.memoji-img {
+  width: 400px; /* Ajuste do tamanho da imagem */
+  height: auto;
+  margin-left: -50%;
+  border-radius: 50%; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+.saudacao {
+  font-family: "Pacifico", sans-serif;
+  color: var(--cor-titulo); /* Cor do título */
+  font-size: 6rem; /* tamanho da fonte para o título */
+  max-width: 90%; /* Limita o título até 90% da largura da tela */
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.nome-destaque {
+  color: #ee302f;
+}
+
+.paragrafo-inicial-s1 {
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: "Cutive Mono", sans-serif;
+  color: var(--cor-texto);
+  max-width: 70%; /* limita o parágrafo até 50% da tela */
+  margin-top: px;
+}
+
+.paragrafo-secundario-s1 {
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: "Cutive Mono", sans-serif;
+  color: var(--cor-texto);
+  max-width: 70%; /* limita o parágrafo até 50% da tela */
+  margin-top: 15px;
+}
+
+.redes {
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.container-icones {
+  margin-left: 15%;
+}
+
+.icones-redes {
+  display: flex; /* ícones dispostos horizontalmente */
+  justify-content: flex-start; /* alinha os ícones à esquerda */
+  gap: 80px; /* espaçamento entre os ícones */
+  margin-top: 50px; /* espaço acima dos ícones */
+}
+
+.icone-img {
+  width: 40px; /* tamanho fixo do ícone */
+  height: 40px; /* tamanho fixo do ícone */
+}
+
+.sobre {
+  height: 100vh; /* seção ocupa toda a altura da tela */
+  background-color: var(--cor-fundo); /* Cor de fundo */
+  padding: 60px;
+}
