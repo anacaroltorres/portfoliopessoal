@@ -16,3 +16,5 @@ Inclui:
 </ul>
 
 # Visualização
+![Captura de tela 2025-01-08 074129](https://github.com/user-attachments/assets/6c43fca6-7964-42ef-8d3a-443083e033e7)
+
